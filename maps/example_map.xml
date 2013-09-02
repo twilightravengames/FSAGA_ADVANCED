@@ -1,0 +1,12 @@
+<fsaga_xml file_type="game_map">
+
+	<collision_block id="1" dest_x="10" dest_y="10" size_x="100" size_y="100"/>
+	<collision_block id="2" dest_x="200" dest_y="200" size_x="100" size_y="100"/>
+	<collision_block id="3" dest_x="700" dest_y="700" size_x="100" size_y="100"/>
+	<collision_block id="4" dest_x="800" dest_y="800" size_x="100" size_y="100"/>
+	
+	<bitmap_bottom_layer>
+			<bitmap_image name="example_map.png" />
+			<source_coordinates src_x="0" src_y="0" size_x="3304" size_y="2552"/>
+	</bitmap_bottom_layer>
+</fsaga_xml>

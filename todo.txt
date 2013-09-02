@@ -1,0 +1,39 @@
+Fantasy Saga Advanced TODO
+--------------------------
+
+===Left work at ==============
+
+XML Map Loading Routines
+Game_Map_State load_level() [in .cpp]
+Maps are located in maps/example_map.xml (for the map xml)
+and maps/example_map.png (for the map image)
+
+Also waiting on response in Eclipse Forums
+for java.lang.NullPointer problem
+and for answer to Android Problem in Android Forums (bookmarked)
+
+
+
+===============================
+
+(Make sure camera smoothly transitions with player movement)
+
+(Count frames per second and make sure they are 30 or above)
+
+1) Add code to fantasy saga advanced allowing for it
+to do all of the functions of the d-type build, except
+for the tile maps, just use one large bitmap for the 
+base/floor (character can pass over) and one large 
+bitmap for the top/ceiling (character passes under).
+Add two more layers, one for effects (top, clouds,
+fog and rain), and one for distant background (mountains
+or sky in the distance).
+
+2) While moving, when player stops screen scrolling slowlyt
+decelarates to a stop.
+
+3) Character speed decelarates slowly when coming to a stop insteasd
+of an abrupt stop
+
+4) See technical document (on mac in fantasy saga d-type folder)
+for more additions/details/optimizations
